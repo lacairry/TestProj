@@ -9,6 +9,7 @@ public class Car implements IVehicle {
 	public Car(String name) {
 		this.name = name;
 	}
+	
 
 	public void start() {
 		System.out.println("Car " + name + " started");
